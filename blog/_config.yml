@@ -73,5 +73,12 @@ deploy:
   repo: https://github.com/AD-feiben/AD-feiben.github.io.git
 
 duoshuo_shortname: iissnan-notes
+duoshuo_share: true
 
 baidu_analytics: 9e9cf808ac0bacac38d53d4b08c7e8f7
+
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
