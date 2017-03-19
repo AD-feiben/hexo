@@ -1,12 +1,14 @@
 ---
 title: 利用GitHub搭建一个你的博客
-date: 2016-11-28 08:48:59
-tags: Git笔记
+date: 2016-02-28 08:48:59
+categories: 原创
+tags: 
+- Git笔记
 ---
 ![Photo From Google](http://upload-images.jianshu.io/upload_images/1917079-bbc62e5e352027e8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 >*为什么要写博客*
-作为一只程序猿，踩到坑是一件非常正常的事，当我们踩到坑的时候就会花心思去研究它，可能我们能够在当时把问题弄懂并把问题给解决掉。可是过一段时间我们又遇到了同样的坑的时候，难道还要再去 百毒 Google 重新搜索一遍吗？这样做效率难免太低了，倒不如在第一次解决问题的时候就把解决方法写到我们的博客了，当我们再一次遇到相同的坑的时候翻一翻我们之前写的博客就能快速的把问题给解决掉，何乐而不为。而且我们学习新技术的时候也可以将当时学到的内容写到我们的博客，再次遇到的时候我们就可以找回当时学习的思路，继续学习。废话不多说，马上开始行动起来，搭建博客！
+>作为一只程序猿，踩到坑是一件非常正常的事，当我们踩到坑的时候就会花心思去研究它，可能我们能够在当时把问题弄懂并把问题给解决掉。可是过一段时间我们又遇到了同样的坑的时候，难道还要再去 百毒 Google 重新搜索一遍吗？这样做效率难免太低了，倒不如在第一次解决问题的时候就把解决方法写到我们的博客了，当我们再一次遇到相同的坑的时候翻一翻我们之前写的博客就能快速的把问题给解决掉，何乐而不为。而且我们学习新技术的时候也可以将当时学到的内容写到我们的博客，再次遇到的时候我们就可以找回当时学习的思路，继续学习。废话不多说，马上开始行动起来，搭建博客！
 
 *声明：本文在Windows下进行操作的，Mac以及其它操作系统请做参考* **多图警告！**
 <!--more-->
@@ -22,8 +24,8 @@ tags: Git笔记
 ![Check Version](http://upload-images.jianshu.io/upload_images/1917079-2c0ae66c2886eedb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/840)
 ## 1.1有问题看这里
 >打开我们刚才安装软件的路径，例如我的路径“D:\Program Files\nodejs”、“D:\Program Files\Git”。
-复制我们刚才安装的路径,打开计算机>右键单击属性，选择高级系统设置>选择环境变量>双击 PATH >将我们安装的路径追加到变量值之后  *！注意分号以及确定保存*
-这个时候再试一下 **node -v** 、**npm -v** 及  **git --version** 这三个命令，一般都不会有问题的了。
+>复制我们刚才安装的路径,打开计算机>右键单击属性，选择高级系统设置>选择环境变量>双击 PATH >将我们安装的路径追加到变量值之后  *！注意分号以及确定保存*
+>这个时候再试一下 **node -v** 、**npm -v** 及  **git --version** 这三个命令，一般都不会有问题的了。
 
 ![PATH](http://upload-images.jianshu.io/upload_images/1917079-f5ebafd2c0256c5f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 # 2.配置 GitHub
@@ -48,7 +50,7 @@ tags: Git笔记
 ![](http://upload-images.jianshu.io/upload_images/1917079-112ad11f7974fd44.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ![](http://upload-images.jianshu.io/upload_images/1917079-aaa2539f1226b466.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 >需要特别注意的是，项目名称一定要使用 **你的名字 + .github.io**
-这一步也没什么问题，如果有问题，一定是你没有给我打赏(∩_∩)
+>这一步也没什么问题，如果有问题，一定是你没有给我打赏(∩_∩)
 
 # 4.设置本地博客的配置
 ## 4.1安装Hexo
@@ -84,5 +86,5 @@ deploy 是部署的意思，**type: git** 就是使用 git 进行部署，**repo
 每一个主题都有一个使用文档，next的使用文档为 http://theme-next.iissnan.com/getting-started.html 我们可以为我们的主题修改名字，添加评论等等，具体的你们就自己去研究了。如果你们觉得太麻烦的话，欢迎大家直接 Fork 我的，地址为 https://github.com/AD-feiben/hexo 当然里面的也有大家要修改的地方。
 
 >如果文章对你有所帮助，那么请您点一下❤
-由于本人水平有限，如有错误，欢迎大家指正。如果你在操作过程中发现一些没有讲到的错误或者问题，欢迎在评论留言，一起探讨，共同学习进步！
-**有钱的来波赞赏，没钱的来波Star**
+>由于本人水平有限，如有错误，欢迎大家指正。如果你在操作过程中发现一些没有讲到的错误或者问题，欢迎在评论留言，一起探讨，共同学习进步！
+>**有钱的来波赞赏，没钱的来波Star**

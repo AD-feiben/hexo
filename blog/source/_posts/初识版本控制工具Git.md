@@ -1,7 +1,9 @@
 ---
 title: 初识版本控制工具Git
-date: 2016-11-22 9:39:38
-tags: Git笔记
+date: 2015-11-22 9:39:38
+categories: 原创
+tags: 
+- Git笔记
 ---
 
 **Git介绍**

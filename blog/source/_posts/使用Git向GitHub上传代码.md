@@ -1,7 +1,9 @@
 ---
 title: 使用Git向GitHub上传代码
-date: 2016-11-22 9:39:38
-tags: Git笔记
+date: 2015-11-29 9:39:38
+categories: 原创
+tags: 
+- Git笔记
 ---
 
 如果你对Git还一无所知，建议你先看一下[初识版本控制工具Git](http://www.jianshu.com/p/7e5ca3ca6e07)，对Git有一定的了解后再来看这篇文章。如果你对Git有一定的了解并且已经配置好SSH key，只是想了解如何将代码上传到GitHub，那么你可以跳过前面部分到**提交代码**部分查看。
@@ -11,10 +13,10 @@ tags: Git笔记
 ![GitHub](http://upload-images.jianshu.io/upload_images/1917079-57c799d0c0b073fc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 - 什么是GitHub
-[GitHub](https://github.com/)是一个面向开源及私有软件项目的托管平台，因为只支持Git作为唯一的版本库格式进行托管，故名GitHub。
+  [GitHub](https://github.com/)是一个面向开源及私有软件项目的托管平台，因为只支持Git作为唯一的版本库格式进行托管，故名GitHub。
 
 - 为什么要使用Github
-GitHub是目前全球最大的开源社区，全球各大科技公司纷纷在GitHub开源各自的项目，这无疑是我们学习先进技术的好地方。
+  GitHub是目前全球最大的开源社区，全球各大科技公司纷纷在GitHub开源各自的项目，这无疑是我们学习先进技术的好地方。
 >[Google](https://github.com/google)
 >[苹果](https://github.com/apple)
 >[twitter](https://github.com/twitter)
@@ -22,7 +24,7 @@ GitHub是目前全球最大的开源社区，全球各大科技公司纷纷在Gi
 >……
 
 - 注册GitHub账号
-1.先到[GitHub](https://github.com/)官网Sign up(注册)一个账号。
+  1.先到[GitHub](https://github.com/)官网Sign up(注册)一个账号。
 
 ![](http://upload-images.jianshu.io/upload_images/1917079-252ddb2ad7830f39.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
@@ -75,4 +77,4 @@ SSH key 添加成功之后，输入 **ssh -T git@github.com **进行测试，如
 
 
 >如果文章对你有所帮助，那么请您点一下♥
-由于本人水平有限，如有错误，欢迎大家指正。如果你在操作过程中发现一些没有讲到的错误或者问题，欢迎在评论留言，一起探讨，共同学习进步！
+>由于本人水平有限，如有错误，欢迎大家指正。如果你在操作过程中发现一些没有讲到的错误或者问题，欢迎在评论留言，一起探讨，共同学习进步！

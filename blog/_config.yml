@@ -4,18 +4,18 @@
 
 # Site
 title: 飞奔
-subtitle:
-description: If you’re going to try，go all the way!
+subtitle: 『公众号Authentic飞奔』
+description: If you're going to try, go all the way!\n『公众号Authentic飞奔』
 author: 飞奔
 language: zh-Hans
 timezone:
-avatar: http://upload.jianshu.io/users/upload_avatars/1917079/c2ec8ac543f6.jpg?imageMogr/thumbnail/90x90/quality/100
+vatar: http://upload.jianshu.io/users/upload_avatars/1917079/c2ec8ac543f6.jpg?imageMogr/thumbnail/90x90/quality/100
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://isfeiben.com
 root: /
-permalink: :year/:month/:day/:title/
+permalink: :title/
 permalink_defaults:
 
 # Directory
@@ -31,6 +31,7 @@ skip_render:
 # Writing
 new_post_name: :title.md # File name of new posts
 default_layout: post
+auto_spacing: true
 titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
@@ -70,12 +71,13 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/AD-feiben/AD-feiben.github.io.git
+  repo: git@github.com:AD-feiben/ad-feiben.github.io.git
 
-duoshuo_shortname: iissnan-notes
+
+duoshuo_shortname: feiben
 duoshuo_share: true
 
-baidu_analytics: 9e9cf808ac0bacac38d53d4b08c7e8f7
+baidu_analytics: d9ea4b4a9c03c01fd0bf903b67d627d6
 
 search:
   path: search.xml
